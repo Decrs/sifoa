@@ -1,0 +1,62 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+.menu{
+	background-color: #2D2D2D;
+	height: 65px;
+}
+
+.menu ul{
+float: right;
+}
+
+.menu ul li{
+display: inline;
+list-style: none;
+padding: 24px 0 24px 0;
+
+}
+
+.menu li a{
+color:white;
+text-decoration: none;
+font-family: Arial;
+font-size: 16px;
+line-height: 65px;
+margin: 35px;
+padding: 23px 0 23px 0;
+}
+
+
+.menu ul li:hover{
+
+	background-color: #262626;
+	border-bottom: 1px solid #fff;
+}
+
+.logo{
+width: 25px;
+height: 25px;
+float: left;
+}
+
+.menu img{
+margin: 19px 0 19px 40px;
+}
+
+.header{
+	width: 100%;
+	height: 615px;
+	background: url(imagens/bgtemporario.JPG);
+}
+
+.header h1{
+font-family: Arial;
+font-size: 75px;
+line-height: 550px;
+color: white;
+text-align: center;
+}
