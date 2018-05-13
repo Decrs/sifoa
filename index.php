@@ -11,6 +11,18 @@
 </head>
 
 <body>
+<div class="header">
+
+<div class="menu">
+<img  class="logo" src="imagens/logoteste.png">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="materias.html">Matérias</a></li>
+		<li><a href="turmas.html">Turmas</a></li>
+	</ul>
+	</div>
+		<h1>SISTEMA DE INFORMAÇÃO</h1>
+</div>
 
 </body>
 
