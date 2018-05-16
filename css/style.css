@@ -59,4 +59,62 @@ font-size: 75px;
 line-height: 550px;
 color: white;
 text-align: center;
+
+background: #ccc;
+}
+
+
+.info{
+	width: 100%;
+	height: auto;
+	background: #ccc;
+
+
+}
+
+.left{
+	float: left;
+	height: 500px;
+	width: 60%;
+	background: #000;
+}
+
+.rigth{
+	float: right;
+	height: 200px;
+	width: 40%;
+	background: #888;
+}
+
+.box-l{
+	height: auto;
+	width: 48%;
+	background: #666;
+	margin: 5px;
+	float: left;
+	position: relative;
+}
+
+.box-r{
+	height: auto;
+	width: 48%;
+	background: #666;
+	margin: 5px;
+	float: right;
+	position: relative;
+}
+
+
+.box{
+	width: 95%;
+	height: auto;
+	background: #f6f6f6;
+	margin: 10px;
+	position: relative;
+}
+.icon, img{
+
+	height: 50px;
+	width: 50px;
+	position: relative;
 }
