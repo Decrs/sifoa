@@ -27,57 +27,138 @@
 
 <div class="info">
 
-	<div class="left">
-
+		<div class="left">
 		
-		<div class="box-r">
-			<div class="box">
-				<span class="icon"><img src="images/diferencial.png"/></span>
-				<h3>TESTE</h3>	
-				<p>texto</p>
-			</div>
-			<div class="box">
-				<span class="icon"><img src="images/ff.png"/></span>
-				<h3>TESTE</h3>	
-				<p>texto</p>
-			</div>
-			<div class="box">
-				<span class="icon"><img src="images/especializacao.png"/></span>
-				<h3>TESTE</h3>	
-				<p>texto</p>
-			</div>
-		</div>
+		<h3>Sobre o curso</h3>
+		<div class="borda"></div>
+
+			
+					<div class="box-r">
+							<div class="box">
+								<span class="icon"><img src="images/diferencial.png"/></span>
+								<h3>Diferencial</h3>	
+								<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.</p>
+							</div>
+							<div class="box">
+								<span class="icon"><img src="images/area.png"/></span>
+								<h3>Área</h3>	
+								<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.</p>
+							</div>
+							<div class="box">
+								<span class="icon"><img src="images/especializacao.png"/></span>
+								<h3>Especialização</h3>	
+								<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.</p>
+							</div>
+					</div>
 
 
-		<div class="box-l">
-			<div class="box">
-				<span class="icon"><img src="images/star.png"/></span>
-				<h3>TESTE</h3>	
-				<p>texto</p>
+					<div class="box-l">
+							<div class="box">
+								<span class="icon"><img src="images/reconhecimento.png"/></span>
+								<h3>Reconhecimento</h3>	
+								<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.</p>
 
-			</div>
-			<div class="box">
-				<span class="icon"><img src="images/carrinhocompras.png"/></span>
-				<h3>TESTE</h3>	
-				<p>texto</p>
-			</div>
-			<div class="box">
-				<span class="icon"><img src="images/graduacao.png"/></span>
-				<h3>TESTE</h3>	
-				<p>texto</p>
-			</div>
+							</div>
+							<div class="box">
+								<span class="icon"><img src="images/merct.png"/></span>
+								<h3>Mercado de Trabalho</h3>	
+								<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.</p>
+							</div>
+							<div class="box">
+								<span class="icon"><img src="images/graduacao.png"/></span>
+								<h3>Graduação</h3>	
+								<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.</p>
+							</div>
 
-		</div>
-		
-		
-
+					</div>
+					
+					
+					
+					<div class="conteudo">
+					<h3>Mercado de Trabalho</h3>
+					<div class="borda"></div>
+							<p>
+							É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.
+								É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.
+								É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.
+								É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.
+								É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.
+								
+								É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.
+								
+								É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+								A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+								tenha uma aparência similar a de um texto legível.
+							</p>
+					
+					</div>
+				
 
 	</div>
+	
+	
 	<div class="rigth">
+		<div class="box-img">
+		<img src="images/boximg.png" width="543px" height="360px" alt="imagem info"/>
+		</div>
+		<div class="box-info">
+			<h3>Sobre o UniFOA</h3>
+			<div class="borda"></div>
+			<p>
+			É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação. 
+			A vantagem de usar Lorem Ipsum é que ele tem uma distribuição normal de letras, ao contrário de "Conteúdo aqui, conteúdo aqui", fazendo com que ele 
+			tenha uma aparência similar a de um texto legível.	
+			
+			</p>
+		
+		
+		</div>
+
+	<div class="link">
+		<h3>Recomendamos para você</h3>
+		<div class="borda"></div>
+		<p>Alguns links</p>
+		<ul>
+		<li><a href="">teste</a></li>
+		<li><a href="">teste</a></li>
+		<li><a href="">teste</a></li>
+		</ul>
+	
+	</div>
+		
 	</div>
 
+
+	
 
 </div>
+
+
+
 
 </body>
 
