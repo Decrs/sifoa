@@ -1,19 +1,25 @@
 *{
 margin: 0;
 padding: 0;
-border: 0;
 font-family: Arial !important;
+}
+body,html{
+	margin:0;
+	padding:0;
 }
 
 p{
 	opacity:0.85;
 }
+
 .borda{
 	border: 2px solid #0088ff;
 	width: 30px;
+	margin-bottom:20px;
 	
 }
 .menu{
+	width: 100%;
 	background-color: #2D2D2D;
 	height: 65px;
 }
@@ -59,33 +65,42 @@ float: left;
 margin: 19px 0 19px 40px;
 }
 
+
+
+
+
+
 .header{
 	width: 100%;
 	height: 615px;
-	 background: url("http://localhost/images/bg1.jpg") no-repeat center center fixed; 
+	 background: url("http://localhost/web/images/bg1.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover ;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 
-.header h1{
+.header>h1{
 font-family: Arial;
 font-size: 75px;
 line-height: 550px;
-color: white;
+color: #fff;
 text-align: center;
+text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
 }
+
 
 
 .info{
-	width: 100%;
+	width: 90%;
+	max-width: 100%;
 	height: 1000px;
-	
 
 
 
 }
+
+
 
 .left{
 	float: left;
@@ -176,16 +191,19 @@ text-align: center;
 .box-info>p{
 	margin-top:15px;
 }
+
 .conteudo{
 	width:100%;
-	height:500px;
-	background:#ccc;
+	height:auto;
 	float:left;
-	margin-top: 145px;
+	margin-top: 5px;
 	
 }
+
+
 .conteudo>h3{
 	padding: 0 0 0 20px;
+
 	
 }
 .conteudo>.borda{
@@ -195,16 +213,135 @@ text-align: center;
 	
 	padding: 20px;
 	text-indent:30px;
+	text-align: left;
 	
+}
+
+.conteudo>.rigth{
+	margin:0 !important;
 }
 .link{
 	width:543px;
 	height:300px;
-
-	margin-top:9px;
+	background: #ccc;
+	margin-top:55px;
 	padding:0 0 0 30px;
 	
+}
+.link>.borda{
+		margin-bottom:20px;
+}
+
+.link>p{
+		margin-bottom:20px;
 }
 
 
 
+.menu-r{
+	
+	padding: 20px;
+	height: 465px;
+	position: relative;
+
+}
+
+.menu-r>p{
+	margin-bottom: 20px;
+}
+
+
+
+section{
+	padding: 20px;
+}
+ /*page turma */
+
+ .info-t{
+	width: 100%;
+	max-width: 100%;
+	height: 1000px;
+
+}
+
+.info-t>h1{
+	margin: 50px 0 0 30px;
+}
+
+.info-t>.borda{
+	margin: 0 0 50px 30px;
+
+}
+
+.t-a{
+
+	text-align: center;
+	width: 50%;
+	height: 500px;
+	float: left;
+	position: relative;
+
+}
+.t-a>h3{
+
+
+}
+.t-a>.borda{
+margin: 0 0 0 45%; 
+}
+
+
+.t-b{
+	text-align: center;
+	width: 50%;
+	height: 500px;
+	float: right;
+
+	position: relative;
+
+}
+
+.t-b>h3{
+	padding: 0 0 0 30px; 
+}
+.t-b>.borda{
+margin: 0 0 0 47%; 
+
+}
+
+
+
+
+.curriculo{
+
+	width: 150px;
+	height: 150px;
+	background: #000;
+	border-radius: 100px;
+	margin: 50px 0 0 40%;
+	position: relative;
+}
+
+.curriculo>a>img{
+
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+	position: relative;
+
+}
+
+.curriculo>a>img:hover{
+	opacity: 0.85;
+}
+
+
+
+.rodape{
+
+	width:100%;
+	height:100px;
+	background: #ccc;
+	float:left;
+	margin-top: 5px;
+}
