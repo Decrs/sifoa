@@ -1,0 +1,33 @@
+body {
+    background-size: 1920px 1300px;
+    background-image: url(storm.jpg);
+    background-attachment: scroll;
+    font-family: "lucida sans unicode";
+    color:white;
+}
+
+.f1 {
+    width:300px;
+    height:300px;
+    border: 2px solid #ff0000;
+    border-radius: 160px;   
+}
+
+p {
+    text-indent:15%;
+    text-shadow: 0 0 3px #FF0000;
+}
+
+h1 {
+    text-shadow: 0px 0px 8px #ff0000;
+}
+
+h3 {
+    text-indent:15%;
+    text-shadow: 0px 0px 6px #ff0000;
+}
+
+h4 {
+    text-indent:15%;
+    text-shadow: 0px 0px 4px #ff0000;
+}

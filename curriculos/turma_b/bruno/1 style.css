@@ -1,0 +1,23 @@
+table{
+	width: 90%;
+	background-color:lightgrey;
+	border-style: double;
+	border-color: black;
+	margin: auto;
+	border-spacing: 5px;
+	border-width: 5px;
+	border-color: black;
+}
+
+th.B{
+	width: 100%;
+	background-color: grey;
+	text-align: center;
+	border-radius: 50px;
+	border-color: black;
+}
+
+img{
+	border: 1px solid black;
+	border-radius: 5px;
+}

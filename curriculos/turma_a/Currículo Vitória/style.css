@@ -1,0 +1,21 @@
+﻿*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+	line-height: 30px;
+	background-attachment: fixed;
+	margin: 5% 20% 5% 20%;
+	text-align: justify;
+	background-color: #D8D8D8;
+}
+.corpo{
+	background-color: #FFF;
+	padding: 30px 30px 20px 20px;
+}
+img{
+	height: 200px;
+	width: 200px;
+	float: right;
+}

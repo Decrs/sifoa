@@ -1,0 +1,21 @@
+body{
+	background-color: #FFF;
+}
+.td{
+	background-color: #EBECED;
+	height: 90%;
+	width: 55%;
+	margin-left: 330px;
+	box-shadow: 9px 10px 38px -3px rgba(21,21,21,0.48);
+}
+.inc{
+	font-family: 'Space Mono', monospace;
+	font-size: 20px;
+}
+h2{
+	font-family: 'Cousine', monospace;
+}
+ul{
+	list-style: none;
+	font-family: 'Space Mono', monospace;
+}

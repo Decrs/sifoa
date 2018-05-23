@@ -1,0 +1,26 @@
+ul { font-family: Verdana;
+		font-collor: Black;
+		list-style-type:none;
+		border: 3px solid black;
+		background-color:#FFF;
+		font-size:15px;
+		text-align:left;
+		
+		}
+li {text-indent: 5px; }
+
+ body {
+	 background-color:lightblue;
+	 }
+ 
+ img {width: 15%;
+ 	height: 15%;
+	float: center;
+	border-radius : 8px;
+	border : 2px solid black;
+	padding :5px;
+ }
+ img:hover {box-shadow :0 10px 100px 10px red;}
+	
+	
+

@@ -1,0 +1,87 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+body{
+	background-color: #222222;
+}
+
+
+.foto{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	border: 7px solid #55dbaf;
+	border-radius: 50%;
+	margin: 80px 715px 50px 730px;
+
+
+}
+.icon{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	margin: -5px 0 0 500px;
+
+  	
+}
+
+.sobre{
+	width: 100%;
+
+}
+.sobre h1{
+	color: #55dbaf;
+	text-align: center;
+	font-size: 35px;
+}
+.sobre h4{
+	color: #55dbaf;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 10px;
+	opacity: 0.85;
+	margin-bottom: 100px;
+}
+
+.info{
+	width: 750px;
+	height: auto;
+	background-color: #515151;
+	margin-left: 470px;
+
+
+}
+
+h2{
+	color: #55dbaf;
+	text-align: left;
+	font-size: 25px;
+	background-color: #363636;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 0 0 15px;
+	margin-bottom: 15px;
+
+}
+
+p{
+	font-size: 18px;
+	color: white;
+	margin:15px 0 15px 15px;
+
+}
+
+
+label{
+	font-weight: bold;
+}
+
+
+label:after{
+	content: ":";
+}
+
+

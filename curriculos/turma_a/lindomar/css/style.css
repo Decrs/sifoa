@@ -1,0 +1,61 @@
+body{
+	bottom: 0px;
+}
+header{
+	background:linear-gradient(#086A87,#0489B1);
+	right: 0;
+	left: 0;
+}
+.container{
+	height: 100%;
+	padding: 10px;
+}
+.row{
+}
+div{
+}
+#logo-img img{
+	height: 180px;
+	border-radius: 50%;
+}
+
+#meu-nome h1{
+	color: white;
+	font-family: 'Baloo Chettan', cursive;;
+	font-weight: bold;
+	text-align: center;
+	font-size: 70px;
+	margin-top: 30px;
+}
+#meu-nome h3{
+	text-align: center;
+	font-family: OCR A Std, monospace;
+	color: white;
+	border:1px solid white;
+	border-radius: 50px 50px 50px 50px;
+}
+.ponteiro{
+}
+
+h2{
+	padding-top: 20px;
+}
+.separador{
+	border: 1px dashed grey;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.ponto-cinza{
+	filter: grayscale(100%);
+}
+footer{
+	background-color:#0489B1; 
+	text-align: center;
+	margin-top: 60px;
+}
+p{
+	font-family: Andale Mono, monospace;
+}
+.fontH{
+	font-family: Stencil Std, fantasy;
+}

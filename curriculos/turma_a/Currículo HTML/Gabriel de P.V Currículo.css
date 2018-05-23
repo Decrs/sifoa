@@ -1,0 +1,36 @@
+h1 {
+	font-family: 'Comic Sans MS';
+	color: #FA5000;
+    text-align: center;
+	}
+
+body {
+	background-color: #1E1E1E;
+}
+
+p {
+	font-family: 'Quicksand';
+	color: rgb(255, 133, 4);
+    text-align: center;
+    font-size: 150%;
+}
+
+h2 {
+	font-family: 'Comic Sans MS';
+	color: rgba(232, 62, 11, 0.96);
+    text-align: center;
+}
+
+li {
+	font-family: 'Quicksand';
+	color: rgb(255, 133, 4);
+    text-align: center;
+    font-size: 150%;
+}
+img {
+	height: 200px; 
+	width: 200px;
+	border-radius: 50%;
+	margin-left:45%;
+	margin-right: 50%;
+}

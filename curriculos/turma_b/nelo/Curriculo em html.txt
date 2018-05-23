@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+	<title>Currículo</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+
+
+<body style="background-color:lightgrey">
+
+<h1>Nelo Vicente da Silva Neto</h1>
+
+<img src="IMGFOTO.JPG" width="5% height= 5%">
+
+<h3>Informações Pessoais</h3>
+
+<p>Idade: 20 anos</p>
+<p>Telefones para contato: (24)988050400 e (24) 30284030</p>
+
+<h3>Endereço</h3>
+
+<p>País: Brasil</p>
+<p>Estado: Rio de Janeiro</p>
+<p>Cidade Barra Mansa</p>
+<p>Bairro: Boa Sorte</p>
+<p>CEP: 27330480</p>
+<h3>Objetivo</h3>
+
+<p>Ter a oportunidade de demonstrar minhas habilidades dentro da empresas contribuindo para meu desenvolvimento da empresa.<p>
+
+<h3>Experiência Profissional<h3>
+
+<p>Curso de Eletricista de Mantenutenção Industrial pelo SENAI - Concluído</p>
+
+<p>Trabalho Voluntário na Associação dos Portadores de Deficiência Física de Barra Mansa nas funções de Atendente, Assistente Administrativo e Serviços Gerais</p>
+
+<h3>Formação Acadêmica</h3>
+
+<p> Ensino médio cocluido no ano de 2016 - Colégio Estadual Barão de Aiuruoca</p>
+<p>Atualmente cursando o 1°Periodo do curso de Sistema de Informação na UNIFOA - Centro universitário de Volta Redonda </p>
+
+</body>
+
+</html>
