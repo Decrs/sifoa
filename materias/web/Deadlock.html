@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Deadlock</title>
+	<meta charset="utf-8">
+</head>
+<style>
+	
+	h1, p {
+	font-family: "Calibre Light";
+      }
+    p, li {text-indent: 2%;}
+
+</style>
+<body>
+
+	<h1>Deadlock</h1>
+<p>Deadlock é quando um processo impede outro processo. Podemos tomar como exemplo essa imagem.</p> 
+<img src="img/deadlock.jpg">
+
+<p>Os carros da rua A pedem acesso para a rua B mas esse pedido é negado pois a rua B precisa passar na rua C que também nega pelo fato da rua D impedir os carros da rua C passar e a rua A que não aceita o seu pedido de passagem. Nesse caso os carros estão em deadlock pois nenhum carro consegue passar.</p>
+<p>Condições para se entrar no estado de Deadlock</p>
+<li>Exclusão Mútua: todo recurso está ou associado a um único processo ou disponível.</li>
+<li>Posse e Espera: processos que retêm recursos podem solicitar novos recursos.</li>
+<li>Não Preempção: recursos concedidos previamente não podem ser forçosamente tomados.</li>
+<li>Espera Circular: deve haver uma cadeia circular de mais de um processos, na qual cada um está à espera de recursos retido pelo membro seguinte dessa cadeia.</li>
+
+<p>Há algumas formas de desfazer os deadlocks, sao essas:</p>
+<li>Preempção: retirar recursos de outros processos.</li>
+<li>Restauração de Estado: armazenar processos para facilitar na restauração caso precise sacrifica-lo durante um deadlock.</li>
+<li>Evitar Dinamicamente: aliar o processo se ele poderá dar deadlock antes de processa-lo.</li>
+<li>Prevenção: é atacar uma condição que possa resultar em deadlock.</li>
+<li>Posse e Espera (requisitar inicialmente todos os recursos necessários):  exige que todos os processos mostrem oque ira utilizar antes de serem processados.</li>
+<li>Não Preempção (retomar recursos alocados): é um processo tomar o uso de tal mecanismo a força. Esse método não é recomendável.</li>
+<li>Espera circular: ordenação numérica de recursos. Cada processo usa o hardware na sua vez.</li>
+
+
+</body>
+</html>

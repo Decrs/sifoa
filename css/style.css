@@ -73,7 +73,7 @@ margin: 19px 0 19px 40px;
 .header{
 	width: 100%;
 	height: 615px;
-	 background: url("http://localhost/images/bg1.jpg") no-repeat center center fixed; 
+	 background: url("http://localhost/web/images/bg1.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover ;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -244,6 +244,36 @@ section{
 	height: 470px;
 
 }
+ /*page materias */
+
+ .matbox{
+ 	width: 200px;
+ 	height: 100px;
+ 	background: #0088ff;
+ 	margin: 50px;
+ 	float: left;
+ 	border-radius: 100px;
+ 	text-align: center;
+
+ 
+
+
+ }
+ .matbox:hover{
+ 	opacity: 0.9;
+
+ }
+
+
+.matbox>p{
+	margin-top: 40px;
+	 font-size: 15px;
+	 font-family: arial;
+	 color: #fff;
+	 font-weight: bold;
+}
+
+
 
 
 
