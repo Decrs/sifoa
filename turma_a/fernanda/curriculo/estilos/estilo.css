@@ -1,0 +1,54 @@
+﻿.fundo {
+
+        background: #FFE4E1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    	height: 300mm;
+     }
+
+    .conteudo {
+         width: 280mm;
+    	height: 280mm;
+         background: #FFF0F5;
+         margin-top: 10px;
+         margin-bottom: 10px; 
+    }
+      body {
+        margin: 0px;
+    }
+  #picture img {
+     float:left;
+     padding-left: 3%;
+     padding-right: 3%;
+     padding-top: 3%;
+    }
+    #titulo
+ {
+    font-family: 'Roboto', sans-serif;font-size:200%;text-align:center;
+ } 
+ p.informacoes
+ {
+ font-family: 'Roboto Condensed', sans-serif;text-align:justify;line-height:150%;
+ padding-right: 3%;
+}
+p.topicos
+ {
+    font-family:'Roboto', sans-serif;font-size:120%;text-align:justify;line-height:150%;font-weight:bold;
+    padding-left: 3%;
+    padding-right: 3%;
+ }
+  p.estrutura
+ {
+    font-family:'Roboto Condensed', sans-serif;font-size:120%;text-align:justify;line-height:150%;
+    padding-left: 6%;
+    padding-right: 3%;
+ }
+
+ ul
+ {
+    font-family:'Roboto Condensed', sans-serif;font-size:120%;text-align:justify;line-height:150%;
+    padding-left: 6%;
+    padding-right: 3%;
+ }

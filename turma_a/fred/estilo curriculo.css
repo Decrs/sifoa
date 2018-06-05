@@ -1,0 +1,33 @@
+h1{
+	color: #434343;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+
+}
+h2{
+	font-family: Raleway;
+	margin-left: 30px;
+}
+h3{
+	font-family: 'Roboto Mono', monospace;
+}
+p{
+	font-family: 'IBM Plex Sans', sans-serif;;
+}
+body{
+	background-color: lightgray;
+}
+
+#inner { padding: 60px; 
+	margin: 1% 400px 1% 400px;
+	background: #F7F8E0; 
+	border: solid #666; 
+	border-width: 1px 10px 10px 1px;
+}
+img{
+	height:150px; 
+	width:100px;
+	align-content: right;
+}
+
+	

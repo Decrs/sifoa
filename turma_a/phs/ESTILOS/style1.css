@@ -1,0 +1,21 @@
+body {background-color: blue; color:white; font-family: "verdana";}
+
+
+h2 {background-color: yellow;color:green;font-family: "verdana"; font-size: 150%;text-align: center; height: 32px;vertical-align: middle;}
+
+p {
+
+font-family: "verdana";
+
+}
+ 
+img 
+
+{
+	border: 1px solid black; 
+	border-radius: 2px; 
+	padding: 2px;
+	width:150px;
+	height:180px;
+}
+
