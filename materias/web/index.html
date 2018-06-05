@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<!-- Usado para adicionar comentarios -->
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Trabalho 2º Bimestre - Ambiente WEB </title>
+	<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+
+	<body>
+<center>
+			<div class="imagem">
+		<a>
+	<img id="img1" src="imagens\em_construcao1.jpg" alt="Pagina em Contrução" width="900" height="300">
+	</a> </div>
+
+<br>
+	<header>
+		<h1>UniFOA - Disciplina de Ambiente Web</h1>
+	</header>
+
+<br>
+
+
+	<nav style="text-indent:3%";>
+		<a href="/web/index.html">Inicio -</a>
+
+		<a href="file:///D:/Faculdade%20-%201%C2%BA%20Ano%20-%20SI%20-%202018/AMBIENTE%20WEB%20-%20MARCELO/2%C2%BA%20Bimestre/Trabalho%202%C2%BA%20Bimestre/HTTP%20E%20HTTPS.html" target="_blank">HTTP e HTTPS -</a>
+		<a href="file:///D:/Faculdade%20-%201%C2%BA%20Ano%20-%20SI%20-%202018/AMBIENTE%20WEB%20-%20MARCELO/2%C2%BA%20Bimestre/Trabalho%202%C2%BA%20Bimestre/CERTIFICADO%20DIGITAL.html" target="_blank">Certificado Digital -</a>
+		<a href="file:///D:/Faculdade%20-%201%C2%BA%20Ano%20-%20SI%20-%202018/AMBIENTE%20WEB%20-%20MARCELO/2%C2%BA%20Bimestre/Trabalho%202%C2%BA%20Bimestre/DOMINIO.html" target="_blank">Domínio -</a>
+		<a href="file:///D:/Faculdade%20-%201%C2%BA%20Ano%20-%20SI%20-%202018/AMBIENTE%20WEB%20-%20MARCELO/2%C2%BA%20Bimestre/Trabalho%202%C2%BA%20Bimestre/PORTAS.html" target="_blank">Portas -</a>
+		<a href="file:///D:/Faculdade%20-%201%C2%BA%20Ano%20-%20SI%20-%202018/AMBIENTE%20WEB%20-%20MARCELO/2%C2%BA%20Bimestre/Trabalho%202%C2%BA%20Bimestre/URL.html" target="_blank">URL -</a>
+		<a href="file:///D:/Faculdade%20-%201%C2%BA%20Ano%20-%20SI%20-%202018/AMBIENTE%20WEB%20-%20MARCELO/2%C2%BA%20Bimestre/Trabalho%202%C2%BA%20Bimestre/Tags.html" target="_blank">Tags e Funções  -</a>
+		<a href="file:///D:/Faculdade%20-%201%C2%BA%20Ano%20-%20SI%20-%202018/AMBIENTE%20WEB%20-%20MARCELO/2%C2%BA%20Bimestre/Trabalho%202%C2%BA%20Bimestre/Estilos%20para%20Tabelas.html" target="_blank">Estilos para Tabelas</a>
+	</nav>
+<br>
+<br>
+		<h1>Entenda a Diferença entre HTTP e HTTPS</h2>
+			<a>
+				<img src="imagens\HTTP-vs-HTTPS.png" alt="HTTP vs HTTPS" width="480" height="190">	
+				<div class="desc"><b>A diferença entre HTTP e HTTPS</b></div>
+			</a><br>
+		
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+
+			<b>HTTP</b> – (<i>HyperText Transfer Protocol - Protocolo de transferência de hipertexto</i>) é o protocolo padrão para a Web. Através dele, os navegadores requisitam as páginas da Web e as recebem. Dessa forma, o HTTP define, entre outras formalidades, como são requisitadas as páginas da Web, como são enviados os dados que o usuário insere em formulários e como o servidor envia mensagens de erro para o navegador do usuário. No entanto, como o HTTP é um protocolo baseado em texto, ou seja, toda a informação transmitida está em texto, os dados do usuário e do servidor podem ser interceptados ou alterados no meio do caminho.
+
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+
+			<b>HTTPS</b> (<i>Hyper Text Transfer Protocol Secure - Protocolo de transferência de hipertexto seguro</i>) é uma implementação do protocolo HTTP sobre uma camada adicional de segurança que utiliza o protocolo SSL/TLS. Com o uso do HTTPS, que é o HTTP seguro, adiciona-se alguns princípios de segurança, como confidencialidade, integridade e autenticação. Por confidencialidade, entende-se que a mensagem só é lida pelo destinatário real da mensagem. A integridade representa que a mensagem não foi alterada e o princípio da autenticação prova que o servidor é realmente quem diz ser.
+		</p>
+<br>
+<hr>
+
+		<h1>Certificado Digital... Oque é e para que Serve</h2>
+			<a>
+				<img src="imagens\cartao-e-cnpj-certificado-digital.jpg" alt="Pessoa Fisica e Juridica - Certificado Digital" width="480" height="360">	
+				<img src="imagens\certificado_digital.png" alt="Certificado Digital" width="230" height="150">	
+				<div class="desc"><b>Pessoa Fisica e Juridica - Certificado Digital</b></div>
+			</a><br>
+
+
+
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+
+		Através do certificado o navegador consegue confirmar a identidade do site.<br></p>
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+
+		No entanto, com isso não sabemos ainda como transmitir os dados de maneira segura.<br></p>
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+
+		Para isso o certificado possui uma chave e essa chave é utilizada para criptografar os dados entre cliente e servidor. Ou seja, o certificado não só prova a identidade como também oferece uma chave para criptografar os dados!<br></p>
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+
+		Se tem uma chave pública tem que haver uma chave privada, certo? Mas cadê ela? Bom, a chave privada no servidor.<br></p>
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+
+		Jamais o servidor pode oferecer essa chave para alguém, caso contrário toda comunicação se tornará insegura! <br></p>
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+
+		Em geral, a chave publica é utilizada por qualquer um que queira se comunicar com o Site, pois faz parte do certificado. A chave privada só o Site conhece, essa chave não é compartilhada com ninguém.<br>	</p>
+<br>
+<hr>
+
+		<h1>Conceito de domínio</h2>
+
+			<a>
+				<img src="imagens\DOMÍNIO-E-HOSPEDAGEM.jpg" alt="Dominio e Hospedagem" width="480" height="360">	
+				<img src="imagens\domain-management.jpg" alt="Exemplos Dominio" width="310" height="250">	
+				<div class="desc"><b>Dominio e Hospedagem</b></div>
+			</a><br>
+
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+
+		O conceito de domínio foi criado com o objetivo de facilitar a memorização dos endereços de computadores na Internet.<br></p>
+
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+		Imagine ter que memorizar um número como 186.192.90.15 (endereço IP) e inseri-lo na barra de navegação para poder consultar o site e depois ainda decorar várias outras sequências de números de site que utilize regularmente.<br></p>
+
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+		Seria uma tarefa bastante difícil e a Web certamente não teria o sucesso que tem hoje.<br></p>
+
+		<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+		Escrever g1.com.br ou google.com torna-se bastante intuitivo e fácil de memorizar.<br></p>
+
+
+		<center><video width="420" height="360" controls>
+  				<source src="videos\dominio-e-hospedagem.mp4" type="video/mp4">
+ 		</video>
+ 		</center>
+		
+
+</p>
+<br>
+
+<hr>
+
+		<h1>Portas</h2>
+
+<br>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+Quando usamos a URL https://www.uol.com.br abrimos uma conexão com o servidor que roda em algum lugar na internet.<br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+Para estabelecer uma conexão na rede é preciso saber qual é o endereço IP, e já vimos como descobri-lo.<br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+Agora imagine que o servidor é uma casa: dependendo da casa há várias portas disponíveis.<br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+O que é preciso saber é qual porta devemos utilizar quando chegarmos na casa. Ou seja, devemos saber qual porta é utilizada para o protocolo
+HTTP!<br></p>
+
+<br>
+<h2>Abrindo Portas</h2>
+
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+<b>A porta reservada para o protocolo HTTP é o 80</b>.<br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+Novamente um número, e como o navegador já sabe essa porta padrão, podemos omiti-la, mas nada nos impede adicioná-la no endereço, por
+exemplo: <b>http://www.uol.com.br:80</b><br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+Vai funcionar normalmente, tanto que o navegador esconde automaticamente :80.<br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+Vamos tentar uma outra porta, outro numero, por exemplo 81: <b>http://www.uol.com.br:81</b><br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+Não funciona, pois essa porta não está aberta no servidor, não podemos estabelecer
+uma conexão e o tempo de conexão vai esgotar.<br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+<b>A porta reservada para o protocolo HTTPS é o 443.</b><br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+Novamente um número, e como o navegador já sabe essa porta padrão, podemos omiti-la, mas nada nos impede adicioná-la no endereço, por exemplo: <b>https://www.uol.com.br:443</b><br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+Vai funcionar normalmente, tanto que o navegador esconde automaticamente :443.<br></p>
+<br>
+<hr>
+
+
+			<h1>URL</h1>
+
+			<a>
+				<img src="imagens\Exemplos.png" alt="Exemplo URL" width="670" height="200">	
+			</a><br>
+
+
+
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+URL é o endereço de um recurso disponível em uma rede, seja a rede internet ou intranet, e significa em inglês Uniform Resource Locator, e
+em português é conhecido por Localizador Padrão de Recursos. <br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+Em outras palavras, URL é um endereço virtual com um caminho que indica onde está o que o usuário procura.<br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+O encurtador de URL é usado para criar URLs curtos que podem ser facilmente compartilhados e enviados por e-mail para amigos.<br></p>
+<p style="text-align: left;line-height: 150%;text-indent:3%;" >
+O encurtador do Google URL Shortener pode ser obtido através da URL <b>https://goo.gl/</b><br></p>
+
+<br>
+<hr>
+
+
+
+
+</center>
+
+			<h2>
+				<center>TAGs e FUNÇÕES</center>
+			</h2>
+	
+		<center>
+		<table bgcolor="black">
+
+		<tr>
+				<th class="tit">TAG < > </th>
+				<th class="tit2">FUNÇÃO</th>
+				<th class="tit3">EXEMPLO</th>
+		</tr>
+		<tr>
+				<td> !DOCTYPE html </td>
+				<td id="d2"> Doctype não é uma TAG HTML, mas uma instrução para o navegador e
+					outros programas que podem ler o site, que o código encontrado ali é um
+					código HTML. O doctype é OBRIGATÓRIO e deve ser sempre a PRIMEIRA LINHA do seu
+					documento </td>
+				<td>< !DOCTYPE html ></td>	
+		</tr>
+		<tr>
+				<td>html</td>
+				<td  id="d2">Esta TAG diz para o seu navegador que este é o início de um
+					documento HTML</td>
+				<td>< html ></td>
+		</tr>
+		<tr>
+				<td>head</td>
+				<td  id="d2">Esta TAG é usada para a informação do cabeçalho.</td>
+				<td>< head ></td>
+		</tr>
+		<tr>
+				<td>style</td>
+				<td  id="d2">Esta TAG é usada para colocar estilos, por exemplo Font,cor da font, alinhamento, entre outros...</td>
+				<td id="dstyle">Fonte Gabriola na cor Green</td>
+		</tr>
+		<tr>
+				<td>body</td>
+				<td  id="d2">Dentro desta TAG fica oque será mostrado no Navegador CORPO DO HTML</td>
+				<td>< body > Conteudo < /body></td>
+		</tr>
+		<tr>
+				<td>h1</td>
+				<td id="d2">Esta TAG é usada para Cabeçalho, colocando o h1 podendo ir de h1 até h6, 
+				onde vai variar os tamanhos de acordo com o numero colocado.</td>
+				<td><h3>Web</h3></td>
+
+		</tr>
+		<tr>
+				<td>p</td>
+				<td  id="d2">Esta TAG é usada para colocar paragrafos</td>
+				<td> <p>UNIFOA - Esta em 4º Lugar no MEC</p></td>
+		</tr>
+		<tr>
+				<td>hr</td>
+				<td  id="d2">Esta TAG é usada para Definir uma linha horizontal</td>
+				<td> <hr></td></td>
+		</tr>
+		<tr>
+				<td>ol</td>
+				<td  id="d2"> Listas Ordenadas </td>
+				<td><ol><li>Joao</li><li>Pedro</li></ol></td>
+		</tr>
+				<tr>
+				<td>ul</td>
+				<td  id="d2"> Listas Não Ordenadas </td>
+				<td><ul><li>Joao</li><li>Pedro</li></ul></td>
+		</tr>
+		<tr>
+				<td>strong</td>
+				<td  id="d2">Colocar o texto forte</td>
+				<td> <strong>Unifoa</strong></td>
+		</tr>
+		<tr>
+				<td>big</td>
+				<td id="d2">Colocar o texto grande</td>
+				<td> Texto <big>Grande</big></td>
+		</tr>
+		<tr>
+				<td>em</td>
+				<td id="d2">Colocar o texto enfazinado</td>
+				<td><em>Enfazinado</em></td>
+		</tr>
+		<tr>
+				<td>i</td>
+				<td id="d2">Colocar o texto italico.</td>
+				<td><i>Italico</i></td>
+		</tr>
+		<tr>
+				<td>small</td>
+				<td id="d2">Colocar o texto pequeno</td>
+				<td>Texto <small>Pequeno</small>
+				</td>
+		</tr>
+		<tr>
+				<td>sub</td>
+				<td id="d2">colocar o texto subescrito</td>
+				<td> Texto <sub>Subescrito</sub></td>
+		</tr>		
+		<tr>
+				<td>sup</td>
+				<td id="d2">Colocar o texto superescrito</td>
+				<td>Texto <sup>Superescrito</sup></td>
+		</tr>
+		<tr>
+				<td>marquee</td>
+				<td id="d2">Texto rolando na tela de fundo</td>
+				<td><marquee>Exemplo</marquee></td>
+		</tr>
+		<tr>
+				<td>a</td>
+				<td id="d2">Colocando links ou imagens no HTML, < a href="URL" target="_blank" > (href link referencia) o target="_blank" (abrir os links em uma nova aba ou janela) target="_self" (abrir os links na mesma aba ou janela) < img src="exemplo.png" > Colocando Imagem.</td>
+				<td><a href="http://www.foa.org.br/" target="_blank" > Exemplo</a></td>
+		</tr>
+		<tr>
+				<td>b</td>
+				<td id="d2">Texto em Negrito</td>
+				<td>Texto <b>Exemplo</b></td>
+		</tr>
+		<tr>
+				<td>br</td>
+				<td id="d2"> Serve para avançar um linha tipo apertar 'enter'</td>
+				<td>Texto <br>Exemplo</br></td>
+		</tr>
+
+	</table>
+	<br>
+
+			<h2>
+				<center>Estilos para a tabela</center>
+			</h2>
+
+		<table bgcolor="black">
+
+
+
+		<tr >
+				<th class="tit">ESTILO</th>
+				<th class="tit2">PROPRIEDADE</th>
+				<th class="tit3">EXEMPLO</th>
+		</tr>
+
+
+ 		<tr>
+				<td>border-style</td>
+				<td id="d2">Estilos das bordas (dotted, dashed, solid,double,
+				groove, ridge,inset,outset,none, hidden)</td>
+				<td>border-style:inset</td>
+		</tr>
+		<tr>
+				<td>border-color</td>
+				<td id="d2">Cores das bordas</td>
+				<td>border-color:red</td>
+		</tr>
+		<tr>
+				<td>width</td>
+				<td id="d2">Tamanho da tabela</td>
+				<td>width: 25%</td>
+		</tr>
+		<tr>
+				<td>height</td>
+				<td id="d2">Altura da tabela</td>
+				<td>height:50px</td>
+		</tr>
+		<tr>
+				<td>text-align</td>
+				<td id="d2">Define o alinhamento do texto na Horizontal (left, right, or center)</td>
+				<td>text-align: left</td>
+		</tr>
+		<tr>
+				<td>vertical-align</td>
+				<td id="d2">Define o alinhamento do texto na Horizontal (top, bottom, or middle)</td>
+				<td>vertical-align: middle</td>
+		</tr>
+		<tr>
+				<td>Padding</td>
+				<td id="d2">Controla o espaço entre as bordas e o conteúdos da tabela nas propriedades entre os elementos < td > and < th > : </td>
+				<td>th , td { padding: 15px;}</td>
+		</tr>
+		<tr>
+				<td>Hover</td>
+				<td id="d2">Mostra a linha selecionada em highlight:</td>
+				<td>tr:hover {backgroundcolor:green}</td>
+		</tr>
+		<tr>
+				<td>nth-child()</td>
+				<td id="d2">Faz o formulário Zebrado</td>
+				<td>tr:nthchild(even) {backgroundcolor:#f2f2f2}</td>
+		</tr>
+		<tr>
+				<td>background-color</td>
+				<td id="d2">Cor de fundo</td>
+				<td>backgroundcolor:lightgrey</td>
+		</tr>
+		<tr>
+				<td rowspan="2">rowspan</td>
+				<td id="d2" rowspan="2">Especifica o número de linhas que uma célula será agrupada</td>
+				<td>Exemplo a Esquerda ← </td> 
+		</tr>
+		<tr>
+				<td>Exemplo a Esquerda ← </td>
+		</tr>
+		<tr>
+				<td >colspan</td>
+				<td id="d2">Especifica o número de colunas que uma célula será agrupada.</td>
+				<td>Exemplo abaixo ↓ </td>
+		</tr>
+		<tr>
+				<td colspan="3">Exemplo</td>
+		</tr>
+
+		</table>
+		<br>
+		<br>
+		</center>
+		<br><br>
+	<footer>
+		
+		copyright &copy:Turma A - Sistema de Informação - Ronieri - 201801083
+
+	</footer>
+	</body>
+</html>
+
+

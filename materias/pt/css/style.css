@@ -1,0 +1,381 @@
+*{
+margin: 0;
+padding: 0;
+font-family: Arial !important;
+}
+body,html{
+	margin:0;
+	padding:0;
+}
+
+p{
+	opacity:0.85;
+}
+
+.borda{
+	border: 2px solid #0088ff;
+	width: 30px;
+	margin-bottom:20px;
+	
+}
+.menu{
+	width: 100%;
+	background-color: #2D2D2D;
+	height: 65px;
+}
+
+.menu ul{
+float: right;
+}
+
+.menu ul li{
+display: inline;
+list-style: none;
+padding: 24px 0 24px 0;
+
+}
+
+.menu li a{
+color:white;
+text-decoration: none;
+font-family: Arial;
+font-size: 16px;
+line-height: 65px;
+margin: 35px;
+padding: 23px 0 23px 0;
+}
+.menu li a:hover{
+		color:#0088ff;
+}
+
+.menu ul li:hover{
+
+	background-color: #262626;
+	
+
+}
+
+.logo{
+width: 25px;
+height: 25px;
+float: left;
+}
+
+.menu>img{
+margin: 19px 0 19px 40px;
+}
+
+
+
+
+
+
+.header{
+	width: 100%;
+	height: 615px;
+	 background: url("http://localhost/web/images/bg1.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header>h1{
+font-family: Arial;
+font-size: 75px;
+line-height: 550px;
+color: #fff;
+text-align: center;
+text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+
+
+.info{
+	width: 90%;
+	max-width: 100%;
+	height: 1000px;
+
+
+
+}
+
+
+
+.left{
+	float: left;
+	height: auto;
+	width: 60%;
+
+}
+.left>h3{
+	
+	margin-top:60px;
+	padding: 0 0 0 20px;
+	
+}
+.left>.borda{
+	margin: 0 0 0 20px;
+}
+
+.rigth{
+	float: right;
+	height: 200px;
+	width: 40%;
+		margin-top:88px;
+}
+
+.box-l{
+	height: auto;
+	width: 48%;
+	margin: 5px;
+	float: left;
+	position: relative;
+
+}
+
+.box-r{
+	height: auto;
+	width: 48%;
+	margin: 5px;
+	float: right;
+	position: relative;
+
+}
+
+
+.box{
+	width: 95%;
+	height: auto;
+	margin: 10px;
+	position: relative;
+}
+
+
+.box>p{
+	margin-top:20px;
+	
+}
+
+
+.icon>img{
+
+	height: 70px;
+	width: 70px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+
+.box-img{
+	width:537px;
+	height:360px;
+	background:#000;
+	margin-bottom: 45px;
+
+	}
+
+.box-info{
+	width:543px;
+	height:431px;
+	border: 6px solid #0088ff;
+	padding:5px;
+
+}
+
+.box-info> h3{
+	margin-top:15px;
+	
+}
+
+.box-info>p{
+	margin-top:15px;
+}
+
+.conteudo{
+	width:100%;
+	height:auto;
+	float:left;
+	margin-top: 5px;
+	
+}
+
+
+.conteudo>h3{
+	padding: 0 0 0 20px;
+
+	
+}
+.conteudo>.borda{
+	margin: 0 0 0 20px;
+}
+.conteudo>p{
+	
+	padding: 20px;
+	text-indent:30px;
+	text-align: left;
+	
+}
+
+.conteudo>.rigth{
+	margin:0 !important;
+}
+
+
+
+
+
+.menu-r{
+	
+	padding: 20px;
+	height: 470px;
+	position: relative;
+
+}
+
+.menu-r>p{
+	margin-bottom: 20px;
+}
+
+
+
+section{
+	padding: 20px;
+	height: 470px;
+
+}
+ /*page materias */
+
+ .matbox{
+ 	width: 200px;
+ 	height: 100px;
+ 	background: #0088ff;
+ 	margin: 50px;
+ 	float: left;
+ 	border-radius: 100px;
+ 	text-align: center;
+
+ 
+
+
+ }
+ .matbox:hover{
+ 	opacity: 0.9;
+
+ }
+
+
+.matbox>p{
+	margin-top: 40px;
+	 font-size: 15px;
+	 font-family: arial;
+	 color: #fff;
+	 font-weight: bold;
+}
+
+
+
+
+
+ /*page turma */
+
+ .info-t{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	float: left;
+	margin-bottom:50px;
+
+}
+
+.info-t>h1{
+	margin: 50px 0 0 30px;
+}
+
+.info-t>.borda{
+	margin: 0 0 50px 30px;
+
+}
+
+.t-a{
+
+	text-align: center;
+	width: 50%;
+	height: auto;
+	float: left;
+	position: relative;
+
+}
+.t-a>h3{
+
+
+}
+.t-a>.borda{
+margin: 0 0 0 45%; 
+}
+
+
+.t-b{
+	text-align: center;
+	width: 50%;
+	height: auto;
+	float: right;
+	position: relative;
+
+
+}
+
+.t-b>h3{
+	padding: 0 0 0 30px; 
+}
+.t-b>.borda{
+margin: 0 0 0 47%; 
+
+}
+
+
+
+
+.curriculo{
+
+	width: 100px;
+	height: 100px;
+	background: #000;
+	border-radius: 100px;
+	margin: 50px 0 0 40%;
+	position: relative;
+
+}
+
+.curriculo>a>img{
+
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	position: relative;
+
+}
+
+.curriculo>a>img:hover{
+	opacity: 0.85;
+}
+
+
+
+.rodape{
+
+	width:100%;
+	height:65px;
+	background: #2d2d2d;
+	float:left;
+	margin-top: 5px;
+
+}
+
+#pfooter{
+	font-family: Arial;
+	font-size: 18px;
+	line-height: 65px;
+	text-align: center;
+	color: white;
+}

@@ -1,0 +1,75 @@
+body {background-color: white}
+
+header,footer{
+		padding: 10px;
+		color:white;
+		background-color: black;
+		text-align:center;
+	     }	
+
+table {width: 95%; border: 1px; border-style: inset;border-color: black }
+
+tr {background-color: white;color:black;font-family: "Time New Roman"; font-size: 100%;text-align: center; height: 50px;vertical-align: middle;}
+
+th {background-color: Blue;}
+
+th ,td {padding: 15px}
+
+#d2 {color:blue;text-align: left;}
+
+#dstyle { font-family: "gabriola";color:Green}
+
+th.tit {color:white; font-family: "gabriola";}
+
+
+th.tit2 {color:white; font-family: "gabriola";}
+
+
+th.tit3 {color:white; font-family: "gabriola";}
+
+tr:hover {background-color: lightgray}
+
+h1, { font-family: "gabriola";}
+
+#img1 {
+	box-shadow: 0 0 100px 1px red;
+}
+
+nav { 
+	float:left; 
+}
+
+header,footer {
+	padding: 10px;
+	color:white;
+	background-color: black;
+	text-align:center;
+}	
+
+
+a:hover {
+
+	color: green;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

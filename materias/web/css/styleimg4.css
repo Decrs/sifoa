@@ -1,0 +1,49 @@
+body {background-color: white}
+
+table {width: 95%; border: 1px; border-style: inset;border-color: black }
+
+tr {background-color: white;color:black;font-family: "Time New Roman"; font-size: 100%;text-align: center; height: 50px;vertical-align: middle;}
+
+th {background-color: Blue;}
+
+th ,td {padding: 15px}
+
+#d2 {color:blue;text-align: left;}
+
+#dstyle { font-family: "gabriola";color:Green}
+
+th.tit {color:white; font-family: "gabriola";}
+
+
+th.tit2 {color:white; font-family: "gabriola";}
+
+
+th.tit3 {color:white; font-family: "gabriola";}
+
+tr:hover {background-color: lightgray}
+
+
+
+
+.imagem img {
+
+	width:100%;
+	height: 70%
+
+}
+
+.imagem { 
+
+	margin: 5px;
+	border:1px solid#ccc;
+	float: left;
+	width:250px;
+	height: 250px;
+}
+
+.desc {
+	padding:15px;
+	text-align: center;
+}
+
+
